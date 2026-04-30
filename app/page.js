@@ -24,7 +24,7 @@ export default function Home() {
           <div className="max-w-6xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="text-sm font-semibold text-blue-700 mb-3">
-                Weeks Systems product launch
+                Digital tools by Weeks Systems
               </p>
 
               <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
@@ -83,7 +83,7 @@ export default function Home() {
             </h2>
 
             <p className="text-gray-700">
-              Weeks Systems is launching simple, focused software tools. Each
+              Weeks Systems creates simple, focused software tools. Each
               product is designed to solve one specific organization problem.
             </p>
           </div>
@@ -122,8 +122,7 @@ export default function Home() {
               </p>
 
               <p className="text-sm text-gray-400">
-                Payments are processed through Stripe. Product access and
-                checkout setup are being completed as part of launch.
+                Payments are processed through Stripe. 
               </p>
             </div>
           </div>
