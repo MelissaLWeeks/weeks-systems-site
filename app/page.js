@@ -1,222 +1,350 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-900">
-      <header className="bg-white border-b border-gray-200">
-        <div className="max-w-6xl mx-auto px-6 py-5 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
-          <div>
-            <p className="text-2xl font-bold">Weeks Systems</p>
-            <p className="text-sm text-gray-600">
-              Simple digital tools for organizing important records.
+    <div className="min-h-screen bg-[#F5F1EA] text-[#2B2D42]">
+      <header className="border-b border-[#DED8CF] bg-[#F5F1EA]">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-5">
+          <a href="#" className="block">
+            <p className="text-2xl font-extrabold tracking-tight">
+              <span className="text-[#2B2D42]">Weeks </span>
+              <span className="text-[#B5443B]">Systems</span>
             </p>
-          </div>
 
-          <a
-            href="mailto:support@weekssystems.com"
-            className="border border-gray-300 bg-white text-gray-900 px-4 py-2 rounded-lg font-semibold text-center"
-          >
-            Contact Support
+            <p className="mt-1 text-[10px] font-bold uppercase tracking-[0.24em] text-[#2B2D42]">
+              Digital Solutions & Website Design
+            </p>
           </a>
+
+          <nav className="hidden items-center gap-8 text-sm font-semibold md:flex">
+            <a
+              href="#websites"
+              className="transition hover:text-[#B5443B]"
+            >
+              Websites
+            </a>
+
+            <a
+              href="#portfolio"
+              className="transition hover:text-[#B5443B]"
+            >
+              See What We Build
+            </a>
+
+            <a
+              href="#contact"
+              className="transition hover:text-[#B5443B]"
+            >
+              Contact
+            </a>
+
+            <a
+              href="mailto:support@weekssystems.com?subject=Website Project Inquiry"
+              className="rounded-xl bg-[#B5443B] px-5 py-3 font-bold text-[#F5F1EA] transition hover:opacity-90"
+            >
+              Build My Website
+            </a>
+          </nav>
         </div>
       </header>
 
       <main>
-        <section className="bg-white">
-          <div className="max-w-6xl mx-auto px-6 py-20 grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <p className="text-sm font-semibold text-blue-700 mb-3">
-                Digital tools by Weeks Systems
-              </p>
+        <section className="overflow-hidden">
+  <div className="mx-auto max-w-6xl px-6 py-16 lg:py-24">
+    <div>
+      <p className="mb-4 text-sm font-extrabold uppercase tracking-[0.2em] text-[#2B2D42]">
+        Digital Solutions & Website Design
+      </p>
 
-              <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6">
-                Practical digital tools for organizing records, reviewing
-                information, and exporting clean reports.
-              </h1>
+      <h1 className="max-w-3xl text-5xl font-extrabold leading-[1.02] tracking-[-0.04em] text-[#2B2D42] md:text-6xl">
+        Professional websites built for small businesses.
+      </h1>
 
-              <p className="text-lg text-gray-700 mb-8">
-                Weeks Systems creates focused software products for organizing
-                important information. Our first product, CaseKeep, helps users
-                organize accident-related medical expenses, track balances, and
-                export clean reports for review.
-              </p>
+      <p className="mt-6 max-w-2xl text-lg leading-8 text-[#696A73]">
+        Weeks Systems creates clean, practical websites for small businesses,
+        independent professionals, and growing brands. From focused landing
+        pages to complete multi-page websites, each project is built to give
+        your business a professional online presence that is easy to use and
+        easy to maintain.
+      </p>
 
-              <div className="flex flex-col sm:flex-row gap-3">
-                <a
-                  href="#products"
-                  className="bg-blue-700 text-white px-6 py-3 rounded-xl font-semibold text-center"
-                >
-                  See Products
-                </a>
+      <a
+        href="mailto:support@weekssystems.com?subject=Website Project Inquiry"
+        className="mt-8 inline-flex items-center gap-3 rounded-xl bg-[#B5443B] px-7 py-4 font-bold text-[#F5F1EA] shadow-sm transition hover:opacity-90"
+      >
+        Build My Website
+        <span aria-hidden="true">→</span>
+      </a>
+    </div>
+  </div>
+</section>
 
-                <a
-                  href="mailto:support@weekssystems.com"
-                  className="border border-gray-300 bg-white text-gray-900 px-6 py-3 rounded-xl font-semibold text-center"
-                >
-                  Contact Support
-                </a>
-              </div>
-            </div>
-
-            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 shadow-sm">
-              <p className="text-sm text-gray-600 mb-1">Current product</p>
-              <h2 className="text-3xl font-bold mb-3">CaseKeep</h2>
-
-              <p className="text-gray-700 mb-5">
-                A digital medical expense organization tool for accident-related
-                settlement tracking.
-              </p>
-
-              <div className="space-y-3 text-sm text-gray-700">
-                <p>✓ Track medical charges and providers</p>
-                <p>✓ Track insurance payments and self payments</p>
-                <p>✓ Add multiple adjustments or write-offs</p>
-                <p>✓ Calculate remaining balances</p>
-                <p>✓ Export CSV and PDF reports</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section id="products" className="max-w-6xl mx-auto px-6 py-16">
-          <div className="text-center max-w-3xl mx-auto mb-10">
-            <h2 className="text-3xl font-bold mb-3">
-              Products by Weeks Systems
-            </h2>
-
-            <p className="text-gray-700">
-              Weeks Systems creates simple, focused software tools. Each
-              product is designed to solve one specific organization problem.
+        <section
+          id="websites"
+          className="border-y border-[#DED8CF] bg-[#FBF8F3]"
+        >
+          <div className="mx-auto max-w-6xl px-6 py-20">
+            <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#696A73]">
+              Website Services
             </p>
-          </div>
 
-          <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm grid lg:grid-cols-2 gap-8 items-center">
-            <div>
-              <p className="text-sm font-semibold text-blue-700 mb-2">
-                Available product
-              </p>
+            <h2 className="mt-3 text-4xl font-extrabold tracking-[-0.03em] text-[#2B2D42]">
+              A website built around your business.
+            </h2>
 
-              <h3 className="text-3xl font-bold mb-4">CaseKeep</h3>
+            <p className="mt-4 max-w-3xl text-lg leading-8 text-[#696A73]">
+              You do not need a huge website to look professional online.
+              Weeks Systems builds focused websites around what your business
+              actually needs, without unnecessary pages or features.
+            </p>
 
-              <p className="text-gray-700 mb-5">
-                CaseKeep helps users organize accident-related medical expense
-                records in one place. Users can enter charges, payments,
-                adjustments, status, notes, and export clean reports.
-              </p>
+            <div className="mt-10 grid gap-5 md:grid-cols-3">
+              <div className="rounded-2xl border border-[#DED8CF] bg-white p-7">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#EEE9E1] text-xl">
+                  ▣
+                </div>
 
-              <ul className="space-y-2 text-gray-700">
-                <li>✓ First 5 expenses free to try</li>
-                <li>✓ $49 one-time unlock per case</li>
-                <li>✓ CSV and PDF exports</li>
-                <li>✓ Export all records or filtered records</li>
-                <li>✓ Designed for medical expense organization</li>
-              </ul>
+                <h3 className="mt-5 text-xl font-extrabold">
+                  Landing Page
+                </h3>
+
+                <p className="mt-3 leading-7 text-[#696A73]">
+                  A focused one-page website for businesses that need a
+                  professional home online.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-[#DED8CF] bg-white p-7">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#EEE9E1] text-xl">
+                  ▤
+                </div>
+
+                <h3 className="mt-5 text-xl font-extrabold">
+                  Small Business Website
+                </h3>
+
+                <p className="mt-3 leading-7 text-[#696A73]">
+                  A complete website with a home page and additional pages for
+                  services, business information, contact details, and other
+                  important content.
+                </p>
+              </div>
+
+              <div className="rounded-2xl border border-[#DED8CF] bg-white p-7">
+                <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#EEE9E1] text-xl">
+                  ↻
+                </div>
+
+                <h3 className="mt-5 text-xl font-extrabold">
+                  Website Refresh
+                </h3>
+
+                <p className="mt-3 leading-7 text-[#696A73]">
+                  A redesign for businesses that already have a website but
+                  need a cleaner, more modern look.
+                </p>
+              </div>
             </div>
 
-            <div className="bg-gray-900 text-white rounded-2xl p-8">
-              <p className="text-sm text-gray-300 mb-2">CaseKeep pricing</p>
+            <div className="mt-10 flex flex-col items-start justify-between gap-6 rounded-3xl bg-[#2B2D42] px-8 py-8 text-[#F5F1EA] md:flex-row md:items-center">
+              <div>
+                <h3 className="text-3xl font-extrabold">
+                  Need a website for your business?
+                </h3>
 
-              <p className="text-5xl font-bold mb-3">$49</p>
+                <p className="mt-2 max-w-2xl text-[#E5DFD1]">
+                  Tell Weeks Systems what you need and we’ll figure out the
+                  right size website for your business.
+                </p>
+              </div>
 
-              <p className="text-gray-300 mb-6">
-                One-time unlock per case. Users can try the first 5 expenses
-                free before unlocking the full case.
-              </p>
-
-              <p className="text-sm text-gray-400">
-                Payments are processed through Stripe. 
-              </p>
+              <a
+                href="mailto:support@weekssystems.com?subject=Website Project Inquiry"
+                className="shrink-0 rounded-xl bg-[#B5443B] px-6 py-3 font-bold text-white transition hover:opacity-90"
+              >
+                Build My Website →
+              </a>
             </div>
           </div>
         </section>
 
-        <section className="bg-white border-y border-gray-200">
-          <div className="max-w-6xl mx-auto px-6 py-16">
-            <h2 className="text-3xl font-bold mb-6">
-              Business and product information
-            </h2>
+        <section id="portfolio" className="mx-auto max-w-6xl px-6 py-20">
+          <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#696A73]">
+            See What We Build
+          </p>
 
-            <div className="grid md:grid-cols-2 gap-8 text-gray-700">
-              <div className="border border-gray-200 rounded-2xl p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">
-                  Business name
-                </h3>
-                <p>Weeks Systems</p>
-              </div>
+          <h2 className="mt-3 text-4xl font-extrabold tracking-[-0.03em]">
+            Digital solutions built for real needs.
+          </h2>
 
-              <div className="border border-gray-200 rounded-2xl p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">
-                  Support email
-                </h3>
-                <p>
+          <p className="mt-4 max-w-3xl text-lg leading-8 text-[#696A73]">
+            Weeks Systems builds websites and focused digital products
+            designed around real-world needs.
+          </p>
+
+          <div className="mt-10 grid gap-6 lg:grid-cols-2">
+            <div className="rounded-3xl border border-[#DED8CF] bg-white p-8 shadow-sm">
+              <div className="grid gap-8 sm:grid-cols-[0.9fr_1.1fr] sm:items-center">
+                <div>
+                  <p className="text-4xl font-extrabold tracking-tight">
+                    <span className="text-[#2B2D42]">Case</span>
+                    <span className="text-[#B5443B]">Keep</span>
+                  </p>
+
+                  <p className="mt-2 text-xs font-extrabold uppercase tracking-[0.15em] text-[#2B2D42]">
+                    Organized. Ready. Resolved.
+                  </p>
+                </div>
+
+                <div>
+                  <p className="leading-7 text-[#696A73]">
+                    Medical expense organization software designed to help
+                    users keep accident-related medical bills, payments,
+                    adjustments, documents, and balances organized.
+                  </p>
+
                   <a
-                    href="mailto:support@weekssystems.com"
-                    className="text-blue-700 underline"
+                    href="https://www.usecasekeep.com/"
+                    className="mt-5 inline-flex rounded-lg bg-[#B5443B] px-5 py-3 text-sm font-bold text-white transition hover:opacity-90"
                   >
-                    support@weekssystems.com
+                    View CaseKeep →
                   </a>
-                </p>
+                </div>
               </div>
+            </div>
 
-              <div className="border border-gray-200 rounded-2xl p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">
-                  Product sold
+            <div className="flex min-h-64 items-center rounded-3xl border border-[#DED8CF] bg-white p-8">
+              <div>
+                <p className="text-sm font-extrabold uppercase tracking-[0.16em] text-[#B5443B]">
+                  Coming Soon
+                </p>
+
+                <h3 className="mt-3 text-2xl font-extrabold">
+                  Another digital solution is on the way.
                 </h3>
-                <p>
-                  CaseKeep, a digital medical expense organization and reporting
-                  tool.
+
+                <p className="mt-3 leading-7 text-[#696A73]">
+                  New Weeks Systems projects will be added here as they become
+                  ready to share.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="border-t border-[#DED8CF] bg-[#FBF8F3]">
+          <div className="mx-auto max-w-6xl px-6 py-20">
+            <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#696A73]">
+              Why Weeks Systems
+            </p>
+
+            <h2 className="mt-3 text-4xl font-extrabold tracking-[-0.03em]">
+              Simple solutions. Clear purpose.
+            </h2>
+
+            <div className="mt-10 grid gap-8 md:grid-cols-3">
+              <div>
+                <h3 className="text-lg font-extrabold">
+                  Built around real needs
+                </h3>
+
+                <p className="mt-2 leading-7 text-[#696A73]">
+                  We focus on what your business actually needs instead of
+                  adding unnecessary complexity.
                 </p>
               </div>
 
-              <div className="border border-gray-200 rounded-2xl p-6">
-                <h3 className="font-semibold text-gray-900 mb-2">Pricing</h3>
-                <p>CaseKeep is planned as a $49 one-time unlock per case.</p>
+              <div>
+                <h3 className="text-lg font-extrabold">
+                  Designed to be easy to use
+                </h3>
+
+                <p className="mt-2 leading-7 text-[#696A73]">
+                  Websites and software should make things easier, not harder.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-extrabold">
+                  Straightforward projects
+                </h3>
+
+                <p className="mt-2 leading-7 text-[#696A73]">
+                  Clear scope, practical design, and a finished product built
+                  for its purpose.
+                </p>
               </div>
             </div>
           </div>
         </section>
 
-        <section className="max-w-6xl mx-auto px-6 py-16">
-          <div className="bg-white border border-gray-200 rounded-2xl p-8 shadow-sm">
-            <h2 className="text-3xl font-bold mb-4">Important disclaimer</h2>
-
-            <p className="text-gray-700">
-              Weeks Systems products are digital organization tools. CaseKeep
-              helps users organize medical expense records and export reports,
-              but it does not provide legal, medical, financial, insurance, or
-              tax advice. Users should consult qualified professionals for advice
-              about claims, settlements, medical treatment, insurance, taxes, or
-              legal rights.
-            </p>
-          </div>
-        </section>
-
-        <footer className="max-w-6xl mx-auto px-6 py-12 border-t border-gray-200">
-          <div className="grid md:grid-cols-3 gap-6 text-sm text-gray-700">
+        <section id="contact" className="bg-[#2B2D42] text-[#F5F1EA]">
+          <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-[1.5fr_0.5fr] md:items-center">
             <div>
-              <h3 className="font-semibold text-gray-900 mb-2">Business</h3>
-              <p>Weeks Systems</p>
-            </div>
+              <p className="text-sm font-extrabold uppercase tracking-[0.2em] text-[#E5DFD1]">
+                Contact Weeks Systems
+              </p>
 
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-2">Support</h3>
-              <p>
-                <a
-                  href="mailto:support@weekssystems.com"
-                  className="text-blue-700 underline"
-                >
-                  support@weekssystems.com
-                </a>
+              <h2 className="mt-3 text-3xl font-extrabold md:text-4xl">
+                Get in touch about your website or digital solution.
+              </h2>
+
+              <p className="mt-3 max-w-2xl leading-7 text-[#E5DFD1]">
+                Have a question, want to discuss a project, or need help
+                figuring out the right solution for your business? We’re happy
+                to help.
               </p>
             </div>
 
-            <div>
-              <h3 className="font-semibold text-gray-900 mb-2">
-                Current product
-              </h3>
-              <p>CaseKeep — medical expense organization software.</p>
+            <div className="border-l-0 border-[#7D7C84] md:border-l md:pl-8">
+              <p className="text-lg font-bold">
+                support@weekssystems.com
+              </p>
+
+              <a
+                href="mailto:support@weekssystems.com"
+                className="mt-3 inline-block text-sm font-semibold text-[#E5DFD1] underline underline-offset-4"
+              >
+                Send an email
+              </a>
             </div>
           </div>
-        </footer>
+        </section>
       </main>
+
+      <footer className="border-t border-[#DED8CF] bg-[#F5F1EA]">
+        <div className="mx-auto flex max-w-6xl flex-col gap-6 px-6 py-8 md:flex-row md:items-center md:justify-between">
+          <div>
+            <p className="text-xl font-extrabold">
+              <span className="text-[#2B2D42]">Weeks </span>
+              <span className="text-[#B5443B]">Systems</span>
+            </p>
+
+            <p className="mt-1 text-[9px] font-bold uppercase tracking-[0.22em]">
+              Digital Solutions & Website Design
+            </p>
+          </div>
+
+          <div className="flex flex-wrap gap-6 text-sm font-semibold">
+            <a href="#websites" className="hover:text-[#B5443B]">
+              Websites
+            </a>
+
+            <a href="#portfolio" className="hover:text-[#B5443B]">
+              See What We Build
+            </a>
+
+            <a href="#contact" className="hover:text-[#B5443B]">
+              Contact
+            </a>
+          </div>
+
+          <a
+            href="mailto:support@weekssystems.com"
+            className="text-sm text-[#696A73]"
+          >
+            support@weekssystems.com
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }

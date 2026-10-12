@@ -12,8 +12,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Weeks Systems",
-  description: "Where you find your digital organization tools.",
+  title: "Weeks Systems | Digital Solutions & Website Design",
+  description:
+    "Weeks Systems provides digital solutions and website design for small businesses, independent professionals, and growing brands.",
 };
 
 export default function RootLayout({ children }) {
@@ -22,7 +23,7 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full">{children}</body>
     </html>
   );
 }
